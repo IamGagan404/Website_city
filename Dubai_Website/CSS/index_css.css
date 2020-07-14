@@ -1,0 +1,95 @@
+#navb{
+	border-style: solid;
+	border-color:darkorange black;
+	border-width: 2px;
+	font-size: 18px;
+	font:sans-serif;
+	max-height: 30px;
+}
+a.navlink:hover{
+	text-decoration: none;
+}
+a.navlink{
+	font-size:15px;
+	color: gold;
+}
+body{
+	background-image:url("../Images/index_back.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}
+.logo{
+	height: 150px;
+	padding-left: 40%;
+}
+.column{
+	width: 33.33%;
+	float:left;
+	padding: 5px;
+}
+.row::after{
+	content: "";
+	clear:both;
+	display:table;
+}
+.att{
+	font:bold;
+	font-size: 20px;
+	color:silver;
+}
+.card{
+  color:red;
+  font-family: sans-serif;
+  background-color: white;
+}
+p{
+	color: silver;
+	
+}
+#ass{
+	color:silver;
+}
+#zxc{
+	background-color: slategray;
+}
+.praise{
+	color:silver;
+	font-size: 15px;
+
+}
+.foot_logo{
+	size:30px;
+}
+.last{
+	background-color: gray;
+	width:100%;
+}
+hr{
+	color: white;
+	font-size:10px;
+}
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkorange;
+  outline: 1px solid darkorange;
+}
+.foot{
+	background-color: #131517;
+
+}
+.follow{
+	margin-left:800px; 
+}
+.footnote{
+	color:silver;
+	font-size: 20px;
+	font-family: sans-serif; 
+}
